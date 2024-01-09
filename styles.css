@@ -1,0 +1,99 @@
+/*Homepage styles*/
+body{
+    background-color: #f5d4b7;
+    padding: 30px;
+    font-size: 20px;
+}
+
+/*Header Styles*/
+.header{
+    background-color: antiquewhite;
+    position: fixed;
+    top: 10px;
+    left:250px;
+    text-align: center;
+    
+}
+
+/*Navigation Styles*/
+.navigation{
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: space-between;
+    background-color: #DADDE4;
+}
+
+/*Link Styles*/
+.link{
+    padding: 1px;
+    margin: 1px;
+    font-weight: bold;
+    position: fixed;
+    background-color: #ffffff;
+    color: coral;
+}
+
+/*Main And Sub Heading Styles*/
+.mainheading{
+    text-align: center;
+    font-family: sans-serif;
+    font-style:normal;
+    color: #FF7A42;
+}
+
+
+.subheading{
+    text-align: center;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+/*Paragraph Styles*/
+.paragraph{
+    text-align: center;
+    margin: 2px;
+    color: #ffffff;
+    font-family:inherit;
+    padding: 20px;
+}
+
+/*Section Styles*/
+section{
+    background-color: #FF7A42;
+    color: #ffffff;
+    padding: 20px;
+}
+
+/*Image Styles*/
+img{
+    padding: 10px;
+    border-image: url(image.jpg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+ 
+}
+
+/*Footer Styles*/
+.footer{
+    background-color: #ffffff;
+}
+
+/*media queries*/
+
+/* On screens that are 992px or less,  the background color is blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: #DADDE4;
+    font-size: 20px;
+  }
+}
+
+/* On screens that are 600px or less,  the background color is olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color:azure;
+    font-size: 16px;
+  }
+}
